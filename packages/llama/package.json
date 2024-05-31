@@ -1,11 +1,11 @@
 {
-	"name": "openai-proxy",
+	"name": "llama",
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
 		"deploy": "wrangler deploy",
-		"dev": "wrangler dev --port 13370 --remote",
-		"start": "wrangler dev --port 13370 --remote",
+		"dev": "wrangler dev --port 13371 --remote",
+		"start": "wrangler dev --port 13371 --remote",
 		"test": "vitest",
 		"cf-typegen": "wrangler types"
 	},
